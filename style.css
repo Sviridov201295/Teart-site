@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-image: url(bg.png);
+    background-image: url(images/bg.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,11 +67,11 @@ body {
 
     /*text-align: center;*/
     position: absolute;
-    left: 0;
+    /*left: 0;*/
 
     margin-top: 384px;
-    /*margin-left: 405px;*/
-    margin-bottom: 50px;
+    margin-left: 405px;
+
 }
 
 .header-text {
@@ -81,6 +81,9 @@ body {
     font-weight: 400;
     line-height: 21px;
 
+    position: absolute;
+    margin-top: 502px;
+    margin-left: 405px;
 }
 
 .header-btn {
@@ -90,7 +93,7 @@ body {
 .header-button {
     position: absolute;
     background-color: #D1A954;
-    padding: 5px 47px;
+    padding: 5px 51px;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
@@ -98,12 +101,46 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
 
-    /*margin-left: 405px;
-    margin-top: 630px;*/
+    margin-left: 405px;
+    margin-top: 581px;
 
     transition: background-color 0.2s linear;
 }
 
 .header-button:hover {
     background-color: #333333;
+}
+
+.header-image {
+    position: absolute;
+
+    margin-top: 267px;
+    margin-left: 1070px;
+}
+
+.header-panel {
+    width: 150px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    position: absolute;
+
+    background: rgba(51, 51, 51, 0.75);
+}
+
+.header-rotatetext {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+
+    position: absolute;
+    margin: 383px 1px 1px;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    transform: rotate(-90deg);
 }
