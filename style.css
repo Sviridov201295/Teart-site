@@ -44,7 +44,6 @@ body {
     font-weight: 700;
 
     transition: color 0.3s linear;
-
 }
 
 .num:hover {
@@ -70,7 +69,7 @@ body {
     /*left: 0;*/
 
     margin-top: 384px;
-    margin-left: 405px;
+    margin-left: 370px;
 
 }
 
@@ -83,7 +82,7 @@ body {
 
     position: absolute;
     margin-top: 502px;
-    margin-left: 405px;
+    margin-left: 370px;
 }
 
 .header-btn {
@@ -101,7 +100,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
 
-    margin-left: 405px;
+    margin-left: 370px;
     margin-top: 581px;
 
     transition: background-color 0.2s linear;
@@ -114,13 +113,15 @@ body {
 .header-image {
     position: absolute;
 
-    margin-top: 267px;
-    margin-left: 1070px;
+    margin-top: 219px;
+    margin-left: 923px;
 }
 
 .header-panel {
+
+    margin: 0px 0px;
     width: 150px;
-    height: 1080px;
+    height: 1045px;
     left: 0px;
     top: 0px;
 
@@ -130,19 +131,59 @@ body {
 }
 
 .header-rotatetext {
+
+    position: absolute;
+    width: 242px;
+    height: 25px;
+    left: -31px;
+    top: 383px;
+
+    /* p / 18b */
+
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+
+    transform: rotate(-90deg);
+
+    /*position: absolute;
     color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
 
-    position: absolute;
-    margin: 383px 1px 1px;
+
+    padding-top: 383px;
+    padding-left: 62px;
+    /*margin-top: 383px;
+    margin-left: 62px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
-    transform: rotate(-90deg);
+
+    transform: rotate(-90deg);*/
+}
+
+.header-rotatetext:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+    top: 14px;
+    left: -120px;
 }
 
 .header-social-network {
@@ -153,9 +194,28 @@ body {
 }
 
 .instagram-img {
-    width: 35px;
-    top: 785px;
-    left: 64px;
+    width: 26px;
+    top: 705px;
+    left: 75px;
 
     position: absolute;
 }
+
+.facebook-img {
+    position: absolute;
+    margin-top: 761px;
+    margin-left: 79px;
+}
+
+.vkontakte-img {
+    position: absolute;
+    margin-top: 817px;
+    margin-left: 75px;
+}
+
+.youtube-img {
+    position: absolute;
+    margin-top: 861px;
+    margin-left: 75px;
+}
+
