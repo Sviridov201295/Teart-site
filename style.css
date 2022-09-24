@@ -144,3 +144,18 @@ body {
 
     transform: rotate(-90deg);
 }
+
+.header-social-network {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.instagram-img {
+    width: 35px;
+    top: 785px;
+    left: 64px;
+
+    position: absolute;
+}
