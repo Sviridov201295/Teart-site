@@ -117,7 +117,7 @@ body {
     margin-left: 923px;
 }
 
-.header-panel {
+.fixed-panel {
 
     margin: 0px 0px;
     width: 150px;
@@ -125,7 +125,11 @@ body {
     left: 0px;
     top: 0px;
 
-    position: absolute;
+    z-index: 1;
+
+    overflow-x: hidden;
+
+    position: fixed;
 
     background: rgba(51, 51, 51, 0.75);
 }
@@ -219,3 +223,121 @@ body {
     margin-left: 75px;
 }
 
+.history {
+    background: #333333;
+    width: 1920px;
+    height: 757px;
+}
+
+.history-title {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    width: 177px;
+    text-align: center;
+    margin-left: 872px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+.history-title span {
+    color: #D1A954;
+}
+
+.about-text {
+    color: #fff;
+
+    width: 445px;
+
+    margin-left: 405px;
+}
+
+.history-subtitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    width: 255px;
+    height: 23px;
+}
+
+.history-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.about-number {
+    color: #fff;
+
+    margin-left: 880px;
+    margin-top: -279px;
+    padding-left: 30px;
+    width: 255px;
+}
+
+
+.history-suptitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.seats {
+    padding-top: 40px;
+}
+
+.armchair {
+    padding-bottom: 15px;
+}
+
+.seats-item {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.seats-item span {
+    color: #D1A954;
+}
+
+.history-years {
+    padding-top: 25px;
+}
+
+.theater1 {
+    padding-bottom: 15px;
+}
+
+.history-years-desc {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.history-years-desc span {
+    color: #D1A954;
+}
+
+.history-img-original {
+    margin-left: 1135px;
+}
+
+.history-images {
+    width: 350px;
+    height: 292px;
+    /*margin-left: 1165px;*/
+    margin: -283px 1px 1px 0px;
+    padding-left: 30px;
+}
