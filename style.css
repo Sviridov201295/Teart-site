@@ -229,13 +229,20 @@ body {
     height: 757px;
 }
 
+.history-info {
+    height: 457px;
+}
+
+
 .history-title {
     color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
     font-weight: 300;
     width: 177px;
+    height: 65px;
     text-align: center;
+    justify-content: center;
     margin-left: 872px;
     padding-bottom: 100px;
     padding-top: 150px;
@@ -245,12 +252,18 @@ body {
     color: #D1A954;
 }
 
+
+.history-information {
+    display: flex;
+    justify-content: center;
+}
+
 .about-text {
     color: #fff;
 
     width: 445px;
 
-    margin-left: 405px;
+    /*margin-left: 405px;*/
 }
 
 .history-subtitle {
@@ -275,10 +288,12 @@ body {
 .about-number {
     color: #fff;
 
-    margin-left: 880px;
-    margin-top: -279px;
+    /*margin-left: 880px;
+    margin-top: -250px;*/
     padding-left: 30px;
+    
     width: 255px;
+    height: 292px;
 }
 
 
@@ -330,14 +345,10 @@ body {
     color: #D1A954;
 }
 
-.history-img-original {
-    margin-left: 1135px;
-}
-
 .history-images {
     width: 350px;
     height: 292px;
     /*margin-left: 1165px;*/
-    margin: -283px 1px 1px 0px;
+    /*margin: -283px 1px 1px 0px;*/
     padding-left: 30px;
 }
