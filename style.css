@@ -375,12 +375,16 @@ body {
     color: #D1A954;
 }
 
+.project-slider {
+    margin-left: 150px;
+}
+
 .projects-sliders {
-    display: inline-flex;
-    margin-left: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    width: 100%;
 }
 
 .sliders-image {
-    width: 442px;
-    height: 550px;
+    width: 100%;
 }
